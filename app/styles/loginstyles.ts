@@ -1,0 +1,88 @@
+import { StyleSheet } from "react-native"
+
+export const loginStyles = StyleSheet.create({
+  container: {
+    flexGrow: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 24,
+    backgroundColor: "#e4e8f0",
+  },
+  form: {
+    backgroundColor: "rgba(255,255,255,0.25)",
+    borderRadius: 16,
+    padding: 32,
+    width: "100%",
+    maxWidth: 450,
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.3)",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.15,
+    shadowRadius: 50,
+    alignItems: "center",
+    backdropFilter: "blur(20px)",
+  } as any,
+  logoContainer: {
+    marginBottom: 24,
+    alignItems: "center",
+  },
+  logoText: {
+    fontSize: 40,
+    fontWeight: "700",
+    color: "#22333b",
+  },
+  titleContainer: {
+    alignItems: "center",
+    marginBottom: 24,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "600",
+    color: "#2c3e50",
+    marginBottom: 8,
+  },
+  subtitle: {
+    color: "rgba(86, 98, 112, 0.8)",
+    fontSize: 16,
+  },
+  input: {
+    width: "100%",
+    backgroundColor: "rgba(255,255,255,0.7)",
+    borderRadius: 10,
+    fontSize: 16,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    marginBottom: 16,
+    borderWidth: 2,
+    borderColor: "transparent",
+  },
+  button: {
+    backgroundColor: "#22333b",
+    borderRadius: 10,
+    paddingVertical: 16,
+    paddingHorizontal: 24,
+    marginTop: 8,
+    width: "100%",
+    alignItems: "center",
+  },
+  buttonText: {
+    color: "#fff",
+    fontSize: 18,
+    fontWeight: "600",
+  },
+  linkText: {
+    marginTop: 16,
+    color: "rgba(198,173,143,0.85)",
+    fontWeight: "500",
+  },
+  topBar: {
+  position: "absolute",
+  top: 0,
+  left: 0,
+  right: 0,
+  height: 5,
+  borderTopLeftRadius: 16,
+  borderTopRightRadius: 16,
+},
+})

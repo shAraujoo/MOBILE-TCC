@@ -1,0 +1,258 @@
+import { StyleSheet } from "react-native"
+import { theme } from "./theme"
+
+export const profileStyles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    backgroundColor: theme.background,
+  },
+  header: {
+    backgroundColor: theme.primary,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    elevation: 4,
+  },
+  logoText: {
+    color: "#fff",
+    fontSize: 22,
+    fontWeight: "700",
+  },
+  container: {
+    flex: 1,
+    padding: 20,
+    maxWidth: "100%",
+  },
+  contentHeader: {
+    alignItems: "center",
+    marginBottom: 40,
+    paddingBottom: 20,
+    borderBottomWidth: 2,
+    borderBottomColor: theme.secondary,
+  },
+  contentHeaderTitle: {
+    fontSize: 28,
+    fontWeight: "700",
+    color: theme.primary,
+  },
+  contentHeaderText: {
+    fontSize: 16,
+    color: theme.textSec,
+    textAlign: "center",
+    marginTop: 6,
+  },
+  profileSection: {
+    marginBottom: 40,
+  },
+  profileInfo: {
+    backgroundColor: "#fff",
+    borderRadius: theme.radius,
+    padding: 20,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 16,
+    elevation: 2,
+  },
+  profilePhoto: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    borderWidth: 4,
+    borderColor: theme.secondary,
+  },
+  userDetails: {
+    flex: 1,
+  },
+  userName: {
+    fontSize: 22,
+    fontWeight: "700",
+    color: theme.primary,
+    marginBottom: 4,
+  },
+  favoriteBooks: {
+    backgroundColor: "#fff",
+    borderRadius: theme.radius,
+    padding: 20,
+    marginTop: 20,
+    elevation: 2,
+  },
+  favoriteTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: theme.primary,
+    marginBottom: 12,
+  },
+  favoritesList: {
+    flexDirection: "row",
+    gap: 12,
+    marginBottom: 12,
+  },
+  favoriteBook: {
+    alignItems: "center",
+    width: 120,
+  },
+  favoriteBookImg: {
+    width: 100,
+    height: 150,
+    borderRadius: theme.radiusSm,
+    marginBottom: 6,
+  },
+  favoriteBookText: {
+    fontSize: 13,
+    fontWeight: "500",
+    color: theme.text,
+  },
+  addFavoriteBtn: {
+    backgroundColor: theme.primary,
+    borderRadius: theme.radiusSm,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    alignItems: "center",
+  },
+  addFavoriteText: {
+    color: "#fff",
+    fontWeight: "500",
+    fontSize: 16,
+  },
+  section: {
+    backgroundColor: "#fff",
+    borderRadius: theme.radius,
+    padding: 20,
+    elevation: 2,
+    marginBottom: 20,
+  },
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: "700",
+    color: theme.primary,
+    marginBottom: 12,
+  },
+  formGroup: {
+    marginBottom: 12,
+  },
+  label: {
+    color: theme.textSec,
+    fontSize: 14,
+    marginBottom: 4,
+  },
+  input: {
+    borderWidth: 2,
+    borderColor: theme.border,
+    borderRadius: theme.radiusSm,
+    padding: 10,
+    fontSize: 16,
+    color: theme.text,
+  },
+  progressContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 10,
+    marginTop: 8,
+  },
+  progressBar: {
+    flex: 1,
+    height: 12,
+    borderRadius: 10,
+    backgroundColor: theme.border,
+  },
+  progressFill: {
+    height: "100%",
+    borderRadius: 10,
+    backgroundColor: theme.secondary,
+  },
+  progressText: {
+    color: theme.primary,
+    fontWeight: "600",
+    minWidth: 50,
+  },
+  logItem: {
+    backgroundColor: theme.background,
+    borderLeftWidth: 4,
+    borderLeftColor: theme.secondary,
+    borderRadius: theme.radiusSm,
+    padding: 12,
+    marginBottom: 10,
+  },
+  logBook: {
+    fontWeight: "600",
+    fontSize: 16,
+    color: theme.primary,
+  },
+  logDetails: {
+    color: theme.textSec,
+    fontSize: 13,
+    marginBottom: 4,
+  },
+  logComment: {
+    fontStyle: "italic",
+    color: theme.text,
+  },
+  addBookForm: {
+    marginBottom: 20,
+  },
+  filterButtons: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+    marginBottom: 16,
+  },
+  filterButton: {
+    paddingVertical: 8,
+    paddingHorizontal: 14,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: theme.border,
+    backgroundColor: theme.background,
+  },
+  filterSelected: {
+    backgroundColor: theme.primary,
+    borderColor: theme.primary,
+  },
+  filterText: {
+    color: theme.text,
+    fontSize: 14,
+  },
+  filterTextSelected: {
+    color: "#fff",
+  },
+  bookItem: {
+    backgroundColor: theme.background,
+    borderRadius: theme.radius,
+    padding: 16,
+    borderWidth: 1,
+    borderColor: theme.border,
+    marginBottom: 16,
+  },
+  bookTitle: {
+    fontWeight: "600",
+    fontSize: 17,
+    color: theme.text,
+  },
+  bookAuthor: {
+    color: theme.textSec,
+    fontSize: 14,
+    marginBottom: 4,
+  },
+  bookStatus: {
+    alignSelf: "flex-start",
+    borderRadius: 20,
+    paddingVertical: 4,
+    paddingHorizontal: 10,
+    fontSize: 13,
+    fontWeight: "500",
+    backgroundColor: theme.border,
+    color: theme.textSec,
+  },
+  footer: {
+    backgroundColor: theme.primary,
+    padding: 20,
+    alignItems: "center",
+  },
+  footerText: {
+    color: "#fff",
+    opacity: 0.8,
+    fontSize: 14,
+  },
+})
